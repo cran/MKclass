@@ -1,0 +1,33 @@
+import("stats")
+export(AUC,
+       AUC.test,
+       confMatrix,
+       decisionStump,
+       HLgof.test,
+       optCutoff,
+       or2rr,
+       pairwise.auc,
+       perfMeasures,
+       perfScores,
+       predValues,
+       ACC, PCC, FC, SMC, RSI, PMC, ER, FIC,
+       SENS, REC, TPR, PD, HR, SPEC, TNR, SEL, 
+       DR, FPR, FO, FAR, PFA, FNR, MR, FDR, FOR, 
+       PREV, PREP, PREO, DPREV, NPREP, NPREO, NIR, 
+       WACC, BACC, INF, YJS, DPp, 
+       PLR, NLR, WLR, BLR, DOR, PPV, PREC, 
+       POSTP, POSTO, BFG1, NPV, NPOSTP, NPOSTO, BFG0,
+       MARK, DP, WPV, BPV, 
+       F1S, DSC, FBS, JSC, TS, CSI, 
+       MCC, RPHI, PHIC, CRV, PPP, EACC, CKC, 
+       MI2, JE2, VI2, JD, INFQR, UC, EC, PROF, DFM,
+       RED, SU, NU,
+       AUC, GINI, BS, PBS, NBS, WBS, BBS,
+       risks,
+       rrCI)
+S3method(print, confMatrix)
+S3method(print, perfMeasure)
+S3method(print, perfScore)
+S3method(print, decisionStump)
+S3method(predict, decisionStump)
+

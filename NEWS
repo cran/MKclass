@@ -1,0 +1,29 @@
+###############################################################################
+## NEWS to package MKclass
+###############################################################################
+
+###########################################################
+## Version 0.3
+###########################################################
+- New function decisionStump to compute 1-level decision trees (1-rules).
+- Added print and predict method for object of class decisionStump
+- Changed return value of perfMeasures and perfScores to object of respective
+  class.
+- Introduced print methods for class perfMeasure and perfScore.
+- Added new argument transform to function perfScores.
+
+###########################################################
+## Version 0.2
+###########################################################
+- Added several performance measures to function perfMeasures
+- Changed the structure of functions perfMeasures and perfScores
+- New function confMatrix, to compute confusion matrix including 
+  a print method.
+
+###########################################################
+## Version 0.1
+###########################################################
+- Start of development
+- Copied functions AUC, AUC.test, HLgof.test, optCutoff, 
+  or2rr, pairwise.auc, perfMeasures, perfScores, predValues,
+  risks, rrCI from package MKmisc
