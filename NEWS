@@ -3,6 +3,24 @@
 ###############################################################################
 
 ###########################################################
+## Version 0.5
+###########################################################
+- renamed return values of AUC.test from variable to model
+- added further explanations in the documentation of decision stump as 
+  suggested by Ondrej Such
+- removed DESCRIPTION table in package Rd-file
+
+
+###########################################################
+## Version 0.4
+###########################################################
+- added na.rm argument to function AUC.
+- adapted links (http -> https).
+- added BSS
+- changed package link to github repository 
+
+
+###########################################################
 ## Version 0.3
 ###########################################################
 - New function decisionStump to compute 1-level decision trees (1-rules).
@@ -12,6 +30,7 @@
 - Introduced print methods for class perfMeasure and perfScore.
 - Added new argument transform to function perfScores.
 
+
 ###########################################################
 ## Version 0.2
 ###########################################################
@@ -19,6 +38,7 @@
 - Changed the structure of functions perfMeasures and perfScores
 - New function confMatrix, to compute confusion matrix including 
   a print method.
+
 
 ###########################################################
 ## Version 0.1
